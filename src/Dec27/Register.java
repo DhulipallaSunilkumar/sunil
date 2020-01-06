@@ -10,10 +10,15 @@ public static void main(String[] args) throws Throwable {
 		driver.get("http://newtours.demoaut.com/mercuryregister.php/");
 		driver.manage().window().maximize();
 		driver.findElement(By.name("firstName")).sendKeys("sunil");
+		//Thread.sleep(3000);
 		driver.findElement(By.name("lastName")).sendKeys("dhulipalla");
+		//Thread.sleep(3000);
 		driver.findElement(By.name("phone")).sendKeys("9703074761");
+		//Thread.sleep(3000);
 		driver.findElement(By.name("userName")).sendKeys("dhulipallasunil1997@gmail.com");
+		//Thread.sleep(3000);
 		driver.findElement(By.name("address1")).sendKeys("ammerpet");
+		//Thread.sleep(3000);
 		driver.findElement(By.name("city")).sendKeys("ammerpet"); 	 	 	
 		driver.findElement(By.name("state")).sendKeys("telagana");
 		driver.findElement(By.name("postalCode")).sendKeys("500055");
